@@ -49,7 +49,7 @@ header>.row>.container>.row>.col-12 {
     height: 10vw;
 }
 nav {
-    height: 8vh;
+    height: 9vh;
     padding-top: 0%;
     background-color: rgba(0, 0, 139, 0.555);
     text-align: center;
@@ -231,7 +231,7 @@ nav > ul > a > li{
         font-size: 70%;
     }
     nav {
-        height: 35px;
+        height: 7.5vh;
         padding-top: 0;
         padding-bottom: 0;
     }
