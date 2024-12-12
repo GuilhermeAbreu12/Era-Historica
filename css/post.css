@@ -1,0 +1,143 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    font-size: 16px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#filter{
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    opacity: 30%;
+    background-color: black;
+}
+header {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    max-width: 100vw;
+    background-color: black;
+}
+header > p {
+    font-family: 'Quicksand';
+    color: white;
+    position: absolute;
+    padding: 0.7%;
+    background-color: black;
+}
+header > img {
+    width: 33.34%;
+}
+.head-block {
+    width: 98%;
+    padding-bottom: 2%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.13);
+    border-left: 18px solid orange;
+    border-right: 18px solid orange;
+}
+#title, #subtitle {
+    font-family: 'Quicksand';
+    font-size: 2em;
+    margin-top: 4vh;
+    text-align: center;
+    color: black;
+}
+#subtitle {
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+}
+img {
+    height: 100%;
+    width: auto;
+}
+.container {
+    min-height: 50vh;
+    height: auto;
+    width: 50%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.25rem;
+    
+}
+p, h5 {
+    font-family: 'Quicksand';
+}
+.introduction-box {
+    padding: 3% 4% 3% 4%;
+    text-align: center;
+}
+.text-box {
+    padding: 5% 4%;
+}
+.text-box > h5 {
+    text-align: left;
+    font-size: 1.2em;
+    font-weight: 700;
+    padding-bottom: 0.5%;
+}
+.text-box > p {
+    text-align: justify;
+}
+.bold {
+    font-weight: bold;
+}
+#text-box-completion > p {
+    text-align: left;
+    margin-bottom: 2%;
+}
+.obs-box {
+    margin: 3% 2%;
+    display: flex;
+    font-style: italic;
+}
+.obs-signo {
+    min-height: 10px;
+    height: auto;
+    width: 10px;
+    margin: 0 2% 0 0;
+    background-color: rgb(255, 208, 0);
+}
+.blue-text {
+    color: rgb(1, 1, 172);
+}
+.img-ilustrativa {
+    width: 100%;
+    margin-top: 5%;
+}
+.btn-voltar {
+    height: auto;
+    width: auto;
+    padding: 1% 3%;
+    margin-bottom: 1%;
+    border: 1px solid blue;
+    border-radius: 8px;
+    color: white;
+    background-color: blue;
+    font-weight: bolder;
+    font-size: 1rem;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.btn-voltar:hover {
+    box-shadow: 0 0 20px blue;
+    transition: .5s;
+}

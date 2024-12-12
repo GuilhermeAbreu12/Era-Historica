@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Era Histórica - blog</title>
+    <!-- Font awesome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/searchBar.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+    <!-- Estilos separados -->
+</head>
+
+<!-- Aqui eu começo a alterar -->
+
+<body>
+    <!-- Header -->
+    <header id="header">
+        <nav class="navbar" id="navbar">
+            <div class="container">
+                <!-- Tela Desktop -->
+                <div class="navbar-nav desktop-screen">
+                    <a href="#blog">Posts</a>
+                    <a href="">Em breve</a>
+                </div>
+                <a href="index.html" class="navbar-brand">
+                    <img src="imgs/logoEraHistóricaBranco.png" alt="" id="Terra">
+                </a>
+                
+                <div class="navbar-nav desktop-screen">
+                    <a href="#about">Sobre</a>
+                    <a href="#contact">Contato</a>
+                </div>
+
+                <!-- Tela Mobile -->
+                <div class="btn-menu-mob" id="btn-menu-mob">
+                    <div class="line-menumob-1"></div>
+                    <div class="line-menumob-2"></div>
+                </div>
+                <section class="menu-mobile" id="menu-mobile">
+                    <nav>
+                        <div class="menu-mobile-terra">
+                            <img src="imgs/logoEraHistóricaBranco.png" alt="Desenho do planeta Terra" id="menu-terra">
+                        </div>
+                        <ul>
+                            <li><a href="#posts">Posts</a></li>
+                            <li><a href="#sobre">Sobre</a></li>
+                            <li><a href="#contato">Contato</a></li>
+                        </ul>
+                    </nav>
+                </section>
+            </div>
+        </nav>
+        <div class="banner">
+            <div class="container">
+                <h1 class="banner-title">
+                    <span>Era</span> histórica
+                </h1>
+                <p>O melhor lugar para aprender história de <span class="anotherline">forma rápida</span></p>
+                
+                <div class="search">
+                    <input type="search" placeholder="Pesquisar ...">
+                    <a href="" class="search-btn">
+                        <div class="icon"><ion-icon name="search-outline"></ion-icon></div>
+                    </a>
+                    <div class="list"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- end of header -->
+
+    <!-- blog -->
+    <section class="blog" id="blog">
+        <div class="container">
+            <div class="title">
+                <h2>Últimos Posts</h2>
+                <p>Posts recentes sobre história</p>
+            </div>
+            <div class="blog-content" id="blog-content">
+            </div>
+        
+
+            <a id="load-more">Ler mais</a>
+            <button class="button" id="show-all">Ver Todos</button>
+        </div>
+    </section>
+    <!-- end of blog -->
+
+    <!-- about -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div>
+                    <div>
+                        <img src="imgs/logoEraHistórica.webp" alt="">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <div class="title">
+                        <h2>Era Histórica</h2>
+                        <p>Amor por saber</p>
+                    </div>
+                    <p>Aqui no Era Histórica, você encontrará desde temas históricos e culturais até curiosidades surpreendentes sobre diversos assuntos. Nossa equipe se dedica a pesquisar e compilar informações de qualidade, para que você sempre descubra algo novo a cada visita.</p>
+
+                    <p>Acreditamos que aprender pode ser divertido e inspirador, e é por isso que buscamos sempre apresentar o conteúdo de forma leve e acessível. Se você é curioso e gosta de explorar diferentes perspectivas, este é o lugar certo para você!</p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of about -->
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <div class="title">
+                <h2>Fale conosco</h2>
+            </div>
+            <form action="https://formsubmit.co/2d68947737166845ea7f04ef8eecbd32" method="POST">
+                <p class="form-text">Seu nome</p>
+                <input type="text" name="name" id="name" required>
+                <p class="form-text">Seu email</p>
+                <input type="email" name="email" id="email" required>
+                <p class="form-text">Sua mensagem</p>
+                <textarea name="message" id="mensagem"></textarea>
+                <input 
+                type="hidden" 
+                name="_next" 
+                value="http://192.168.15.8:5501/obrigado.html">
+                <button type="submit" onclick="Enviar()">Enviar</button>
+                <p id="mensagem-sucesso"></p>
+            </form>
+        </div>
+    </section>
+    <!-- End of contact -->
+    <!-- footer -->
+    <footer>
+        <!-- Futuro
+        <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-pinterest"></i></a>
+        </div>
+        -->
+        <span>Era Histórica 2024 - Guilherme Abreu</span>
+    </footer>
+    <script src="js/contato.js" defer></script>
+    <script src="js/script.js" defer></script>
+    <script src="js/Searchbar.js" defer></script>
+    <script src="js/sugestoes.js" defer></script>
+    <script src="js/menu.js" defer></script>
+</body>
+</html>
