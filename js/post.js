@@ -2,6 +2,7 @@ let recentPosts = [
     {
         'title': 'Era Histórica | Top 10 fatos sobre Napoleão Bonaparte',
         'titulo': 'Top 10 fatos sobre <span class="anotherline">Napoleão Bonaparte</span>',
+        'metaDescription': 'Descubra os 10 fatos mais fascinantes sobre Napoleão Bonaparte, o imperador que amedrontou a Europa inteira.',
         'data': '1 Setembro 2024',
         'subtitulo': 'Uma das maiores ameaças que esse mundo já viu, com vocês, o francês Napoleão Bonaparte',
         'introducao': 'Olhe ao redor… O mundo que conhecemos seria completamente diferente se um determinado “ser humaninho”, com um espírito meio esquisito no corpo não tivesse falhado… E eu nem estou falando do Alemão ainda, estou falando do Francês, Napoleão Bonaparte, o imperador que colocou a coroa portuguesa para correr e quase conquistou toda a Europa de seu tempo. Esses são os <span class="bold">TOP 10 FATOS SOBRE NAPOLEÃO BONAPARTE:</span>',
@@ -38,6 +39,7 @@ let recentPosts = [
     {
         'title': 'Era Histórica | Top 10 fatos sobre Júlio César',
         'titulo': 'Top 10 fatos sobre <span class="anotherline">Júlio César</span>',
+        'metaDescription': 'Descubra 10 fatos fascinantes sobre o famoso imperador romano Júlio César',
         'data': '30 Agosto 2024',
         'subtitulo': 'Conheça a história de um dos maiores imperadores da história',
         'introducao': 'Júlio César foi um dos maiores governantes da história de Roma, e um dos líderes mais famosos do mundo. E é exatamente por isso que seria impossível ele não passar por aqui. Então aqui vão 10 fatos sobre essa lenda romana.',
@@ -74,6 +76,7 @@ let recentPosts = [
     {
         'title': 'Era Histórica | Pirâmides do Egito: Top 10 fatos interessantes',
         'titulo': 'Pirâmides do Egito: Top 10 fatos interessantes',
+        'metaDescription': 'Conheça 10 fatos impressionantes sobre as Pirâmides do Egito e descubra o porquê delas serem uma das 10 maravilhas do mundo antigo.',
         'data': '3 Julho 2024',
         'subtitulo': 'Conheça as maiores estruturas criadas pelo homem do mundo antigo.',
         'introducao': 'Uma das 7 maravilhas do mundo antigo, cartão de visita para os turistas do Egito, suposta prova de vida extra-terrestre e um portal para a história antiga. Aprenda mais sobre elas com esses 10 fatos sobre as pirâmides do Egito.',
@@ -110,6 +113,7 @@ let recentPosts = [
     {
         'title': 'Era Histórica | Top 10 fatos sobre Alexandre o Grande',
         'titulo': 'Top 10 fatos sobre Alexandre o Grande',
+        'metaDescription': 'Conheça a história de um dos maiores líderes militares da História, o macedônico Alexandre o Grande.',
         'data': '1 Julho 2024',
         'subtitulo': 'O homem que deitou o oriente inteiro antes de você ter barba',
         'introducao': 'Um líder nato e conquistador revolucionário, o homem que mudou para sempre a cultura europeia e formou a base do que hoje conhecemos como cultura ocidental',
@@ -161,6 +165,23 @@ function loadPost() {
     if (postId !== null && recentPosts[postId]) {
         let post = recentPosts[postId];
         let title = document.querySelector('title')
+        
+        function updateMetaDescription(description) {
+            let metaDescription = document.querySelector('meta[name="description"]');
+            if (!metaDescription) {
+                // Se a meta tag não existir, crie-a
+                metaDescription = document.createElement('meta');
+                metaDescription.setAttribute('name', 'description');
+                document.head.appendChild(metaDescription);
+            }
+            // Atualiza o conteúdo da descrição
+            metaDescription.setAttribute('content', description);
+        }
+        
+        // Exemplo de uso:
+        updateMetaDescription(`${post.metaDescription}`);
+        
+
         title.innerText = `${post.title}`
 
         let postContent = document.getElementById('post-content');
