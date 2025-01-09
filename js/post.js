@@ -31,9 +31,9 @@ let recentPosts = [
             'Napoleão deixou um legado duradouro na Europa e no mundo. Suas reformas legais, administrativas e educativas influenciaram muitos países, e ele continua a ser uma figura histórica complexa e controversa, admirada por sua genialidade militar e criticada por seu autoritarismo.'
         ],
         'conclusao': 'E esse foi o nosso TOP 10 FATOS sobre o Imperador e conquistador Napoleão Bonaparte, se você acha que faltou alguma coisa, ou tem alguma sugestão de tema para ser nosso próximo Top 10, é só escrever na sessão de mensagens do nosso site.',
-        'img1': '../imgs/post8.webp',
-        'img2': '../imgs/post8_2.webp',
-        'img3': '../imgs/post8_3.webp',
+        'img1': '../imgs/post2_1.webp',
+        'img2': '../imgs/post2_2.webp',
+        'img3': '../imgs/post2_3.webp',
         'altText': 'Ilustração de Napoleão Bonaparte'
     },
     {
@@ -68,9 +68,9 @@ let recentPosts = [
             'A morte de César não restaurou a República, mas levou a mais guerras civis, resultando no fim da República e no início do Império Romano sob seu sobrinho-neto e herdeiro adotivo, Otaviano (futuro imperador Augusto). César é lembrado como uma das figuras mais influentes da história romana, com um legado que moldou o futuro de Roma e do mundo ocidental.',
         ],
         'conclusao': 'E esse foi o nosso TOP 10 FATOS sobre o Imperador Júlio César. Se você acha que faltou alguma coisa, ou tem alguma sugestão de tema para ser nosso próximo Top 10, é só escrever na sessão de mensagem do nosso site.',
-        'img1': '../imgs/post9.webp',
-        'img2': '../imgs/post9_2.webp',
-        'img3': '../imgs/post9_3.webp',
+        'img1': '../imgs/post3_1.webp',
+        'img2': '../imgs/post3_2.webp',
+        'img3': '../imgs/post3_3.webp',
         'altText': 'Ilustração de Júlio César'
     },
     {
@@ -105,9 +105,9 @@ let recentPosts = [
             'As pirâmides tinham um profundo significado religioso e simbólico. Elas representavam a colina primitiva de criação e eram vistas como uma rampa para o céu, facilitando a ascensão do faraó à vida após a morte e sua união com os deuses.'
         ],
         'conclusao': 'E esse foi o nosso TOP 10 FATOS sobre as Pirâmides do Egito, se você acha que faltou alguma coisa, ou tem alguma sugestão de tema para ser nosso próximo Top 10, é só escrever na sessão de mensagem do nosso site.',
-        'img1': '../imgs/post5_3.webp',
-        'img2': '../imgs/post5_2.webp',
-        'img3': '../imgs/post5.webp',
+        'img1': '../imgs/post4_3.webp',
+        'img2': '../imgs/post4_2.webp',
+        'img3': '../imgs/post4_1.webp',
         'altText': 'Ilustração das pirâmides do Egito'
     },
     {
@@ -142,9 +142,9 @@ let recentPosts = [
             'Alexandre o Grande é lembrado não apenas por suas conquistas militares, mas também por espalhar a cultura grega por grande parte do mundo conhecido na época. Seu legado influenciou a arte, a arquitetura, a filosofia e a ciência por muitos séculos.'
         ],
         'conclusao': 'E esse foi o nosso TOP 10 FATOS sobre ALEXANDRE o GRANDE, se você acha que faltou alguma coisa, ou tem alguma sugestão de tema para ser nosso próximo Top 10, é só escrever na sessão de mensagem do nosso site',
-        'img1': '../imgs/post7.webp',
-        'img2': '../imgs/post7_2.webp',
-        'img3': '../imgs/post7_3.webp',
+        'img1': '../imgs/post5_1.webp',
+        'img2': '../imgs/post5_2.webp',
+        'img3': '../imgs/post5_3.webp',
         'altText': 'Ilustração de Alexandre o Grande'
     }
     // Outros posts...

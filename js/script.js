@@ -2,28 +2,28 @@ let recentPosts = [
     {
         'nome': 'Top 10 fatos sobre Napoleão Bonaparte',
         'data': '1 Setembro 2024',
-        'img': '../imgs/post8.webp',
+        'img': '../imgs/post2_1.webp',
         'descricao': 'Um dos maiores líderes militares que esse mundo foi capaz de experimentar, hoje vamos falar sobre o francês Napoleão Bonaparte',
         'link': 'post.html?id=0'
     },
     {
         'nome': 'Top 10 fatos sobre Júlio César',
         'data': '30 Agosto 2024',
-        'img': '../imgs/post9.webp',
+        'img': '../imgs/post3_1.webp',
         'descricao': 'O líder romano mais famoso, bom moço para uns, ditador para outros, conheça a história do maior imperador romano de todos os tempos, a história de Júlio César',
         'link': 'post.html?id=1'
     },
     {
         'nome': 'Top 10 fatos sobre as Pirâmides do Egito',
         'data': '3 Julho 2024',
-        'img': '../imgs/post5.webp',
+        'img': '../imgs/post4_1.webp',
         'descricao': 'Uma das 7 maravilhas do mundo antigo, cartão de visita para os turistas do Egito, suposta prova de vida extra-terrestre, conheça 10 fatos curiosos sobre essas obras de arte',
         'link': 'post.html?id=2'
     },
     {
         'nome': 'Top 10 fatos sobre Alexandre o Grande',
         'data': '1 Julho 2024',
-        'img': '../imgs/post7.webp',
+        'img': '../imgs/post5_1.webp',
         'descricao': 'Um líder nato e conquistador revolucionário, o homem que mudou para sempre a cultura europeia e formou a base do que hoje conhecemos como cultura ocidental',
         'link': 'post.html?id=3'
     }
