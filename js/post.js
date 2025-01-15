@@ -14,6 +14,12 @@ function loadPost() {
     // Verifica se o ID é válido e se existe no array recentPosts
     if (postId !== null && recentPosts[postId]) {
         let post = recentPosts[postId];
+        let buscador = 0;
+        for (buscador in recentPosts){
+            if (recentPosts[buscador].link.includes(postId)){
+                post = recentPosts[buscador]
+            }
+        }
         let title = document.querySelector('title')
         
         function updateMetaDescription(description) {
