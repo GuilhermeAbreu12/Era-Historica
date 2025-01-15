@@ -15,6 +15,7 @@
     --azul4: #43608a;
     --exAzul: #07004b;
 }
+
 *{
     padding: 0;
     margin: 0;
@@ -327,7 +328,7 @@ body.no-overflow{
     margin: 1rem 0;
     padding: 0 0.8rem;
 }
-.blog-text span{
+.blog-text > span{
     font-weight: 300;
     display: block;
     padding-bottom: 0;
@@ -337,6 +338,10 @@ body.no-overflow{
     padding: 0.5rem 0;
     font-size: 1.65rem;
     font-weight: 500;
+}
+.anotherline {
+    font-family: var(--Playfair);
+    display: contents;
 }
 .blog-text p{
     padding-bottom: 1.2rem;

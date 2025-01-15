@@ -1,3 +1,4 @@
+/*
 let recentPosts = [
     {
         'nome': 'Top 10 fatos sobre Napoleão Bonaparte',
@@ -27,7 +28,8 @@ let recentPosts = [
         'descricao': 'Um líder nato e conquistador revolucionário, o homem que mudou para sempre a cultura europeia e formou a base do que hoje conhecemos como cultura ocidental',
         'link': 'post.html?id=3'
     }
-];
+];*/
+import { recentPosts } from "./bd.js";
 
 let cardPost = document.getElementById('blog-content');
 let postsPerPage = 3;
@@ -43,12 +45,12 @@ function showPosts() {
         content += `
         <div class="blog-item">
             <div class="blog-img">
-                <img src="${post.img}" alt="${post.nome}">
+                <img src="${post.img1}" alt="${post.altText}">
             </div>
             <div class="blog-text">
                 <span>${post.data}</span>
-                <h2>${post.nome}</h2>
-                <p>${post.descricao}</p>
+                <h2>${post.titulo}</h2>
+                <p>${post.subtitulo}</p>
                 <a href="${post.link}"><button class="button">Acessar</button></a>
             </div>
         </div>
@@ -72,12 +74,12 @@ function showAllPosts() {
         content += `
         <div class="blog-item">
             <div class="blog-img">
-                <img src="${post.img}" alt="${post.nome}">
+                <img src="${post.img1}" alt="${post.altText}">
             </div>
             <div class="blog-text">
                 <span>${post.data}</span>
-                <h2>${post.nome}</h2>
-                <p>${post.descricao}</p>
+                <h2>${post.titulo}</h2>
+                <p>${post.subtitulo}</p>
                 <a href="${post.link}"><button class="button">Acessar</button></a>
             </div>
         </div>
