@@ -1,25 +1,38 @@
 import { recentPosts } from "./bd.js";
 
+let x = 0;
+let post;
+let postId;
+
 // Função para obter o parâmetro 'id' da URL
 function getPostIdFromURL() {
-    const params = new URLSearchParams(window.location.search);
-    return params.get('id');
+    const url = document.location.href
+    // Rodar a url dentro dos links do recentPosts 
+    
+    for (x in recentPosts){
+        if (url.includes(recentPosts[x].link)){
+            console.log(x)
+            post = recentPosts[x]
+            postId = x
+        } else {
+            console.log('y')
+        }
+    }
+    // Se forem iguais, define essa como a principal e roda seus conteúdos
 }
-
 
 // Carregar o conteúdo dinâmico do post
 function loadPost() {
-    let postId = getPostIdFromURL();
-    
+    getPostIdFromURL()
     // Verifica se o ID é válido e se existe no array recentPosts
-    if (postId !== null && recentPosts[postId]) {
-        let post = recentPosts[postId];
-        let buscador = 0;
+    if (post !== null && recentPosts[postId]) {
+        /*
+        let buscador = 0;        
         for (buscador in recentPosts){
             if (recentPosts[buscador].link.includes(postId)){
                 post = recentPosts[buscador]
             }
-        }
+        }*/
         let title = document.querySelector('title')
         
         function updateMetaDescription(description) {

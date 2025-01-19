@@ -4,7 +4,7 @@ export let recentPosts = [
     // Cleópatra
     {
         'title': 'Era Histórica | Cleópatra',
-        'titulo': 'Desvendando Cleópatra: 10 Fatos Fascinantes sobre a Rainha do Nilo',
+        'titulo': 'Cleópatra: 10 Fatos Fascinantes sobre a Rainha do Nilo',
         'metaDescription': 'Desvendando Cleópatra: 10 Fatos Fascinantes sobre a Rainha do Nilo',
         'data': '15 Janeiro 2025',
         'subtitulo': 'Explore as lendas e a história envolvendo a icônica governante do Egito, Cleópatra, para mergulhar no mundo sedutor e enigmático da Era Ptolemaica.',
@@ -38,7 +38,7 @@ export let recentPosts = [
         'img2':'../imgs/post6_2.webp',
         'img3':'../imgs/post6_3.webp',
         'altText': 'Ilustração da Cleópatra',
-        'link': 'post.html?id=4'
+        'link': 'post.html?cleopatra:10-fatos-fascinantes-sobre-a-rainha-do-nilo'
     },
     // Alexandre o Grande
     {
@@ -77,7 +77,7 @@ export let recentPosts = [
         'img2': '../imgs/post5_2.webp',
         'img3': '../imgs/post5_3.webp',
         'altText': 'Ilustração de Alexandre o Grande',
-        'link': 'post.html?id=3'
+        'link': 'post.html?top-10-fatos-sobre-alexandre-o-grande'
     },
     // Piramides do Egito
     {
@@ -116,7 +116,7 @@ export let recentPosts = [
         'img2': '../imgs/post4_2.webp',
         'img3': '../imgs/post4_1.webp',
         'altText': 'Ilustração das pirâmides do Egito',
-        'link': 'post.html?id=2'
+        'link': 'post.html?piramides-do-egito:top-10-fatos-interessantes'
     },
     // Júlio César
     {
@@ -155,7 +155,7 @@ export let recentPosts = [
         'img2': '../imgs/post3_2.webp',
         'img3': '../imgs/post3_3.webp',
         'altText': 'Ilustração de Júlio César',
-        'link': 'post.html?id=1'
+        'link': 'post.html?top-10-fatos-sobre-julio-cesar'
     },
     // Napoleão Bonaparte
     {
@@ -194,6 +194,6 @@ export let recentPosts = [
         'img2': '../imgs/post2_2.webp',
         'img3': '../imgs/post2_3.webp',
         'altText': 'Ilustração de Napoleão Bonaparte',
-        'link': 'post.html?id=0'
+        'link': 'post.html?top-10-fatos-sobre-napoleao-bonaparte'
     }
 ];
