@@ -38,7 +38,7 @@ export let recentPosts = [
         'img2':'../imgs/post6_2.webp',
         'img3':'../imgs/post6_3.webp',
         'altText': 'Ilustração da Cleópatra',
-        'link': 'post.html?cleopatra:10-fatos-fascinantes-sobre-a-rainha-do-nilo'
+        'link': 'post.html?cleopatra-10-fatos-fascinantes-sobre-a-rainha-do-nilo'
     },
     // Alexandre o Grande
     {
@@ -116,7 +116,7 @@ export let recentPosts = [
         'img2': '../imgs/post4_2.webp',
         'img3': '../imgs/post4_1.webp',
         'altText': 'Ilustração das pirâmides do Egito',
-        'link': 'post.html?piramides-do-egito:top-10-fatos-interessantes'
+        'link': 'post.html?piramides-do-egito-top-10-fatos-interessantes'
     },
     // Júlio César
     {
