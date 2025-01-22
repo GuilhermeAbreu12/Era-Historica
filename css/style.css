@@ -21,6 +21,9 @@
     margin: 0;
     font-family: var(--Quicksand);
 }
+a:focus {
+    outline: 0;
+}
 body{
     line-height: 1.4;
     display: flex;
@@ -325,15 +328,14 @@ body.no-overflow{
     padding: 0.3rem 0.6rem;
 }
 .blog-text{
-    margin: 1rem 0;
-    padding: 0 0.8rem;
+    padding: 0.8rem;
 }
-.blog-text > span{
+.Card-data{
     font-weight: 300;
     display: block;
     padding-bottom: 0;
 }
-.blog-text h2{
+.Card-title{
     font-family: var(--Playfair);
     padding: 0.5rem 0;
     font-size: 1.65rem;
@@ -343,7 +345,7 @@ body.no-overflow{
     font-family: var(--Playfair);
     display: contents;
 }
-.blog-text p{
+.Card-subtitle{
     padding-bottom: 1.2rem;
     font-size: 1.1rem;
     font-weight: 300;
@@ -360,11 +362,16 @@ body.no-overflow{
     background: var(--azul2);
     display: inline-block;
     transition: all 0.5s ease;
+    outline: 0;
 }
 .button:hover{
     border-color: black;
     background: var(--exDark);
     box-shadow: 0 0 20px black;
+}
+.button:focus {
+    outline: 0;
+    box-shadow: 0;
 }
 .blog .container{
     display: flex;
@@ -374,6 +381,64 @@ body.no-overflow{
 #load-more{
     margin-bottom: 5px;
 }
+/* Fim da sessão blog */
+/* Sessão temática */
+#temas {
+    width: 100%;
+    padding: 2.5rem 2.5rem 4.5rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #00194b;
+}
+#temas > h1 {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+}
+#temas__container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2%;
+}
+.temasCard {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.temasCard:hover, .temasCard:focus{
+    box-shadow: 0 0 20px white;
+    transition: .6s;
+    outline: 0;
+}
+.temasCard__img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    > img {
+        border-radius: 10px 10px 0 0;
+    }
+}
+.temasCard .temasCard__body {
+    width: 100%;
+    padding: 1rem;
+    color: white;
+}
+.temasCard__body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.Card-subtitle {
+    flex-grow: 1;
+}
+/* Fim da sessão temática */
+/* About */
 .about{
     padding: 4.5rem 0;
 }
@@ -385,6 +450,8 @@ body.no-overflow{
     padding: 0.6rem 0;
     opacity: 0.8;
 }
+
+/* Contato */
 .contact{
     background-color: #f9f9f9;
     height: 70vh;

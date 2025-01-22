@@ -79,7 +79,7 @@ img {
     font-size: 1.25rem;
     
 }
-p, h5 {
+p, h2 {
     font-family: 'Quicksand';
 }
 .introduction-box {
@@ -89,7 +89,7 @@ p, h5 {
 .text-box {
     padding: 5% 4%;
 }
-.text-box > h5 {
+.text-box > h2 {
     text-align: left;
     font-size: 1.2em;
     font-weight: 700;

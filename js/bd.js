@@ -7,6 +7,9 @@ export let recentPosts = [
         'titulo': 'Cleópatra: 10 Fatos Fascinantes sobre a Rainha do Nilo',
         'metaDescription': 'Desvendando Cleópatra: 10 Fatos Fascinantes sobre a Rainha do Nilo',
         'data': '15 Janeiro 2025',
+        'temas': [
+            'egito-antigo'
+        ],
         'subtitulo': 'Explore as lendas e a história envolvendo a icônica governante do Egito, Cleópatra, para mergulhar no mundo sedutor e enigmático da Era Ptolemaica.',
         'introducao':'Cleópatra, a última faraó do Egito Antigo, é uma figura enigmática e fascinante que cativou a imaginação de gerações. Sua beleza, astúcia política e vida dramática continuam a intrigar historiadores e entusiastas da história até hoje. Aqui estão 10 fatos fascinantes sobre a Rainha do Nilo.',
         'fatosTitulos': [
@@ -46,6 +49,9 @@ export let recentPosts = [
         'titulo': 'Top 10 fatos sobre Alexandre o Grande',
         'metaDescription': 'Conheça a história de um dos maiores líderes militares da História, o macedônico Alexandre o Grande.',
         'data': '1 Julho 2024',
+        'temas': [
+            'lideres-militares'
+        ],
         'subtitulo': 'O homem que deitou o oriente inteiro antes de você ter barba',
         'introducao': 'Um líder nato e conquistador revolucionário, o homem que mudou para sempre a cultura europeia e formou a base do que hoje conhecemos como cultura ocidental',
         'fatosTitulos': [
@@ -85,6 +91,9 @@ export let recentPosts = [
         'titulo': 'Pirâmides do Egito: Top 10 fatos interessantes',
         'metaDescription': 'Conheça 10 fatos impressionantes sobre as Pirâmides do Egito e descubra o porquê delas serem uma das 10 maravilhas do mundo antigo.',
         'data': '3 Julho 2024',
+        'temas': [
+            'egito-antigo'
+        ],
         'subtitulo': 'Conheça as maiores estruturas criadas pelo homem do mundo antigo.',
         'introducao': 'Uma das 7 maravilhas do mundo antigo, cartão de visita para os turistas do Egito, suposta prova de vida extra-terrestre e um portal para a história antiga. Aprenda mais sobre elas com esses 10 fatos sobre as pirâmides do Egito.',
         'fatosTitulos': [
@@ -124,6 +133,10 @@ export let recentPosts = [
         'titulo': 'Top 10 fatos sobre Júlio César',
         'metaDescription': 'Descubra 10 fatos fascinantes sobre o famoso imperador romano Júlio César',
         'data': '30 Agosto 2024',
+        'temas': [
+            'lideres-militares',
+            'lendas-romanas'
+        ],
         'subtitulo': 'Conheça a história de um dos maiores imperadores da história',
         'introducao': 'Júlio César foi um dos maiores governantes da história de Roma, e um dos líderes mais famosos do mundo. E é exatamente por isso que seria impossível ele não passar por aqui. Então aqui vão 10 fatos sobre essa lenda romana.',
         'fatosTitulos': [
@@ -163,6 +176,9 @@ export let recentPosts = [
         'titulo': 'Top 10 fatos sobre Napoleão Bonaparte',
         'metaDescription': 'Descubra os 10 fatos mais fascinantes sobre Napoleão Bonaparte, o imperador que amedrontou a Europa inteira.',
         'data': '1 Setembro 2024',
+        'temas': [
+            'lideres-militares'
+        ],
         'subtitulo': 'Uma das maiores ameaças que esse mundo já viu, com vocês, o francês Napoleão Bonaparte',
         'introducao': 'Olhe ao redor… O mundo que conhecemos seria completamente diferente se um determinado “ser humaninho”, com um espírito meio esquisito no corpo não tivesse falhado… E eu nem estou falando do Alemão ainda, estou falando do Francês, Napoleão Bonaparte, o imperador que colocou a coroa portuguesa para correr e quase conquistou toda a Europa de seu tempo. Esses são os <span class="bold">TOP 10 FATOS SOBRE NAPOLEÃO BONAPARTE:</span>',
         'fatosTitulos': [
@@ -197,3 +213,24 @@ export let recentPosts = [
         'link': 'post.html?top-10-fatos-sobre-napoleao-bonaparte'
     }
 ];
+
+export const listaTemas = [
+    {
+        'img': '../imgs/post4_1.webp',
+        'title': 'Ícones do Egito antigo',
+        'subtitle': 'Explore o Egito antigo de uma forma completa',
+        'link': 'temas.html?egito-antigo'
+    },
+    {
+        'img': '../imgs/post3_1.webp',
+        'title': 'Lendas Romanas',
+        'subtitle': 'Explore a história lendária dos que ajudaram a construir um dos maiores impérios da história',
+        'link': 'temas.html?lendas-romanas'
+    },
+    {
+        'img': '../imgs/post5_1.webp',
+        'title': 'Maiores Líderes Militares da história',
+        'subtitle': 'Explore o mundo das conquistas militares com os mais famosos líderes que esse mundo já viu',
+        'link': 'temas.html?lideres-militares'
+    }
+]

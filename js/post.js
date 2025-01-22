@@ -1,5 +1,6 @@
 import { recentPosts } from "./bd.js";
 
+const body = document.querySelector('body')
 let x = 0;
 let post;
 let postId;
@@ -11,11 +12,9 @@ function getPostIdFromURL() {
     
     for (x in recentPosts){
         if (url.includes(recentPosts[x].link)){
-            console.log(x)
+            
             post = recentPosts[x]
             postId = x
-        } else {
-            console.log('y')
         }
     }
     // Se forem iguais, define essa como a principal e roda seus conteúdos
@@ -26,13 +25,7 @@ function loadPost() {
     getPostIdFromURL()
     // Verifica se o ID é válido e se existe no array recentPosts
     if (post !== null && recentPosts[postId]) {
-        /*
-        let buscador = 0;        
-        for (buscador in recentPosts){
-            if (recentPosts[buscador].link.includes(postId)){
-                post = recentPosts[buscador]
-            }
-        }*/
+        
         let title = document.querySelector('title')
         
         function updateMetaDescription(description) {
@@ -63,7 +56,7 @@ function loadPost() {
             <img src="${post.img3}" alt="${post.altText}" id="banner-img-3">
         </header>
         <div class="head-block">
-            <h2 id="title">${post.titulo}</h2>
+            <h1 id="title">${post.titulo}</h1>
             <p id="subtitle">${post.subtitulo}</p>
         </div>
         <main>
@@ -72,43 +65,43 @@ function loadPost() {
                     <p>${post.introducao}</p>
                 </div>
                 <div class="text-box">
-                    <h5><span class="blue-text">Fato 1:</span>${post.fatosTitulos[0]}</h5>
+                    <h2><span class="blue-text">Fato 1:</span>${post.fatosTitulos[0]}</h2>
                     <p>${post.paragrafos[0]}</p>
                 </div>
                 <div class="text-box">
-                    <h5><span class="blue-text">Fato 2:</span>${post.fatosTitulos[1]}</h5>
+                    <h2><span class="blue-text">Fato 2:</span>${post.fatosTitulos[1]}</h2>
                     <p>${post.paragrafos[1]}</p>
                 </div>
                 <div class="text-box">
-                    <h5><span class="blue-text">Fato 3:</span>${post.fatosTitulos[2]}</h5>
+                    <h2><span class="blue-text">Fato 3:</span>${post.fatosTitulos[2]}</h2>
                     <p>${post.paragrafos[2]}</p>
                 </div>
                 <div class="text-box">
-                    <h5><span class="blue-text">Fato 4:</span>${post.fatosTitulos[3]}</h5>
+                    <h2><span class="blue-text">Fato 4:</span>${post.fatosTitulos[3]}</h2>
                     <p>${post.paragrafos[3]}</p>
                 </div>
                 <div class="text-box">
-                    <h5><span class="blue-text">Fato 5:</span>${post.fatosTitulos[4]}</h5>
+                    <h2><span class="blue-text">Fato 5:</span>${post.fatosTitulos[4]}</h2>
                     <p>${post.paragrafos[4]}</p>
                 </div>
                 <div class="text-box">
-                    <h5><span class="blue-text">Fato 6:</span>${post.fatosTitulos[5]}</h5>
+                    <h2><span class="blue-text">Fato 6:</span>${post.fatosTitulos[5]}</h2>
                     <p>${post.paragrafos[5]}</p>
                 </div>
                 <div class="text-box">
-                    <h5><span class="blue-text">Fato 7:</span>${post.fatosTitulos[6]}</h5>
+                    <h2><span class="blue-text">Fato 7:</span>${post.fatosTitulos[6]}</h2>
                     <p>${post.paragrafos[6]}</p>
                 </div>
                 <div class="text-box">
-                    <h5><span class="blue-text">Fato 8:</span>${post.fatosTitulos[7]}</h5>
+                    <h2><span class="blue-text">Fato 8:</span>${post.fatosTitulos[7]}</h2>
                     <p>${post.paragrafos[7]}</p>
                 </div>
                 <div class="text-box">
-                    <h5><span class="blue-text">Fato 9:</span>${post.fatosTitulos[8]}</h5>
+                    <h2><span class="blue-text">Fato 9:</span>${post.fatosTitulos[8]}</h2>
                     <p>${post.paragrafos[8]}</p>
                 </div>
                 <div class="text-box">
-                    <h5><span class="blue-text">Fato 10:</span>${post.fatosTitulos[9]}</h5>
+                    <h2><span class="blue-text">Fato 10:</span>${post.fatosTitulos[9]}</h2>
                     <p>${post.paragrafos[9]}</p>
                 </div>
                 <div class="text-box" id="text-box-completion">
