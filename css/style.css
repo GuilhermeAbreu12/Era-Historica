@@ -52,6 +52,7 @@ header{
     height: 10vh;
     & .container{
         height: 100%;
+        width: 100%;
     }
 }
 
@@ -495,69 +496,7 @@ body.no-overflow{
     box-shadow: 0 0 20px #002876;
     transition: .8s;
 }
-#body-obrigado{
-    height: 100vh;
-    width: 100%;
-    background-image: url('../imgs/post7_3.webp');
-    color: white;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-}
-.filter{
-    height: 100vh;
-    width: 100%;
-    z-index: -1;
-    position: absolute;
-    background-color: #00194b91;
-}
-#container-obrigado{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.ctr-button{
-    height: 7vh;
-    width: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    font-weight: 500;
-    font-family: 'Fira sans';
-    font-size: 1.1em;
-    border: 3px solid var(--azul1);
-    border-radius: 50px;
-    color: white;
-    background-color: var(--azul1);
-}
-.ctr-button:hover{
-    box-shadow: 0 0 20px var(--azul2);
-    transition: .8s;
-}
-#container-obrigado > a{
-    margin-top: 4%;
-}
-.container-img-terra{
-    height: 40vh;
-    width: auto;
-    display: flex;
-    justify-content: center;
-}
-#terra{
-    height: 100%;
-}
-.mensagem-obrigado{
-    text-align: center;
-    h2{
-        font-family: 'Montserrat';
-    }
-    p{
-        font-family: 'Montserrat';
-    }
-}
+
 footer{
     background: var(--azul1);
     color: #fff;

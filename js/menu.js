@@ -5,10 +5,12 @@ let menuMobile = document.querySelector('#menu-mobile')
 
 let body = document.querySelector('body')
 
-btnMenuMob.addEventListener('click', ()=>{
+function Interruptor(){
     line1.classList.toggle('ativo1')
     line2.classList.toggle('ativo2')
     menuMobile.classList.toggle('abrir')
     
     body.classList.toggle('no-overflow')
-})
+}
+
+btnMenuMob.addEventListener('click', Interruptor)

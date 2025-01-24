@@ -113,7 +113,7 @@ function loadPost() {
                 <div class="text-box">
                     <p>– Era Histórica –</p>
                 </div>
-                <a href="index.html" class="btn-voltar">
+                <a href="index.html#blog" class="btn-voltar">
                     Outros posts
                 </a>
             </div>

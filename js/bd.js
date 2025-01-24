@@ -16,7 +16,7 @@ export let recentPosts = [
             ' Não era egípcia',
             ' Poliglota',
             ' Cientista e Erudita',
-            ' Aliança com Júlio César',
+            ' Aliança com <a href="post.html?top-10-fatos-sobre-julio-cesar">Júlio César</a>',
             ' Rainha de Dois Reinos',
             ' Aliança com Marco Antônio',
             ' Batalha de Ácio',
@@ -146,7 +146,7 @@ export let recentPosts = [
             ' Ditadura',
             ' Reformas do Calendário',
             ' Guerra Civil e Vitória sobre Pompeu',
-            ' Relacionamento com Cleópatra',
+            ' Relacionamento com <a href="post.html?cleopatra-10-fatos-fascinantes-sobre-a-rainha-do-nilo">Cleópatra</a>',
             ' Reformas Sociais e Econômicas',
             ' Assassinato',
             ' Legado e Impacto'

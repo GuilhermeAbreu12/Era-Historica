@@ -52,9 +52,9 @@
                             <img src="imgs/logoEraHistóricaBranco.png" alt="Desenho do planeta Terra" id="menu-terra">
                         </div>
                         <ul>
-                            <li><a href="#posts">Posts</a></li>
-                            <li><a href="#sobre">Sobre</a></li>
-                            <li><a href="#contato">Contato</a></li>
+                            <li><a href="#blog" onclick="Interruptor()">Posts</a></li>
+                            <li><a href="#about" onclick="Interruptor()">Sobre</a></li>
+                            <li><a href="#contact" onclick="Interruptor()">Contato</a></li>
                         </ul>
                     </nav>
                 </section>
@@ -130,18 +130,14 @@
             <div class="title">
                 <h2>Fale conosco</h2>
             </div>
-            <form action="https://formsubmit.co/2d68947737166845ea7f04ef8eecbd32" method="POST">
+            <form action="https://formsubmit.co/guilhermesabreu08@gmail.com" method="POST">
                 <p class="form-text">Seu nome</p>
                 <input type="text" name="name" id="name" required>
                 <p class="form-text">Seu email</p>
                 <input type="email" name="email" id="email" required>
                 <p class="form-text">Sua mensagem</p>
                 <textarea name="message" id="mensagem"></textarea>
-                <input 
-                type="hidden" 
-                name="_next" 
-                value="http://192.168.15.8:5501/obrigado.html">
-                <button type="submit" onclick="Enviar()">Enviar</button>
+                <button type="submit">Enviar</button>
                 <p id="mensagem-sucesso"></p>
             </form>
         </div>
