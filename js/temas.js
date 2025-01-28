@@ -10,8 +10,8 @@ let tema = url.split('?')[1]
 console.log(tema)
 
 switch (tema){
-    case 'lendas-romanas':
-        pageTitle.innerHTML = 'Lendas Romanas'
+    case 'lendas-historicas':
+        pageTitle.innerHTML = 'Lendas Históricas'
         break
     case 'egito-antigo':
         pageTitle.innerHTML = 'Egito Antigo'

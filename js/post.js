@@ -50,7 +50,7 @@ function loadPost() {
         postContent.innerHTML = `
         <header>
             <div id="filter"></div>
-            <p>@Topmundo</p>
+            <p>@erahistorica</p>
             <img src="${post.img1}" alt="${post.altText}" id="banner-img-1">
             <img src="${post.img2}" alt="${post.altText}" id="banner-img-2">
             <img src="${post.img3}" alt="${post.altText}" id="banner-img-3">
