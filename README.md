@@ -1,21 +1,32 @@
-# Era Histórica
+<h1 align="center">Era Histórica</h1>
+
 Era Histórica é um projeto de blog de história, com conteúdo gerado dinamicamente via JavaScript.
 
-# Propósito
-O propósito deste projeto é colocar em prática meus conhecimentos em JavaScript, explorando a criação de páginas dinâmicas e a implementação de funcionalidades como a barra de pesquisas.
+## Propósito
+O propósito deste projeto é colocar em prática meus conhecimentos em JavaScript, explorando a criação de páginas dinâmicas, a implementação de funcionalidades como a barra de pesquisas e o envio e recebimento de formulários via formsubmit.co.
 
-# Linguagem de programação
+## Linguagem de programação
 - JavaScript.
 
-# Tecnologias
+## Tecnologias
 - HTML;
 - CSS;
 - [FormSubmit.co](https://formsubmit.co/): Envio e recebimento de formulários;
 - [Netlify](https://www.netlify.com/): deploy do projeto.
 
-# Resultados
-[Site publicado](https://erahistorica.netlify.app/)
+## :hammer: Funcionalidades:
+- `tela inicial:` A barra de navegação superior oferece acesso rápido às demais seções do site;
+- `tela inicial:` Caso as dimensões do dispositivo sejam menores que 768px, um ícone de menu substitui os links da barra de navegação padrão. Em clicado, apresenta uma lista de destinos para o usuário acessar no site (os mesmos da barra de navegação padrão);
+- `tela inicial:` O usuário pode pesquisar rápidamente posts pelo título na barra de pesquisas;
+- `ultimos posts:` Deslizando a tela para baixo, é possível acessar os posts mais recentes com a opção de mostrar mais posts;
+- `explore por temas:` É possível buscar as publicações por tema específico, como Egito antigo, pessoas que mudaram a história, e líderes militares;
+- `fale conosco:` É apresentado um formulário que o usuário pode preencher para enviar uma mensagem ao dono do blog.
 
+## Status do projeto
+![Status projeto: concluído](https://img.shields.io/badge/-CONCLUÍDO-green) <br><br>
+Site publicado: [https://erahistorica.netlify.app](https://erahistorica.netlify.app/)
+
+## Screenshots
 Tela inicial:
 ![Screenshot 2025-06-21 01 04 43](https://github.com/user-attachments/assets/fdeab685-d022-4a46-82a9-951a7d885ad5)<br><br>
 Pesquisando um post:
